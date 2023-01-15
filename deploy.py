@@ -45,13 +45,15 @@ image = Image.open('images/chai2.png')
 st.image(image, caption = "Scatter Plot of Age to Time Spent in Dobby")
 
 
-st.subheader("Regresson")
+st.subheader("Features Selection")
 
 image = Image.open('images/corr.png')
 st.image(image, caption = "Correlation Heatmap")
 
 image = Image.open('images/rfcb10.png')
-st.image(image, caption = "Random Forest Classifier Bottom 10 Features")
+st.image(image, caption = "RFE Bottom 10 Features")
+
+st.subheader("Regression Models Comparison")
 
 image = Image.open('images/r2trend.png')
 st.image(image, caption = "R2 Trend for different regression model")
